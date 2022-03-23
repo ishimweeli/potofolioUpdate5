@@ -2,10 +2,11 @@
  *{
    padding: 0;
    margin: 0%;
-   box-sizing: b;
+   font-family: sans-serif;
  }
 
   .navBar{
+    
     margin-left: 100px;
     margin-top: 30px;
     display: flex;
@@ -21,6 +22,8 @@
     z-index: 10;
   }
   .navList{
+    max-width: 100%;
+    max-height: 100vh;
     padding-top: 15px;
     padding-right: 40px;
   display: flex;
@@ -31,7 +34,7 @@
   font-size: 20px;
 color: black;
   }
-  
+ 
   .myCv{
     background-color: blue;
     color: white;
@@ -98,13 +101,23 @@ justify-content: space-between;
   padding-top: 60px;
   padding-left: 250px;
 }
-/* .follow{
-  padding-top: 10px;
-} */
+
 i {
   padding-left: 10px;
   }
   span{
     color: white;
   }
+  img {
+    max-width: 100%;
+    }
+  
 
+
+    
+    @media screen and (max-width:600px) {
+      * {
+          width: 90%;
+      }
+  }
+    
