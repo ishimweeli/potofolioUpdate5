@@ -69,4 +69,17 @@ background: tomato;
     position: relative;
     background-color: #C1E3E1;
     }
+    a[href^="mailto"]::before {
+        content: "📧 ";
+        
+    }
+    .contact1{
+        position: relative;
+        margin-left: 600px;
+        margin-bottom: -100PX;
+    }
+    
+    a[href^="tel"]::before {
+        content: "📞 ";
+    }
     
