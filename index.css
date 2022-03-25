@@ -7,6 +7,7 @@
 
   .navBar{
     
+    overflow: hidden;
     margin-left: 100px;
     margin-top: 30px;
     display: flex;
@@ -22,19 +23,19 @@
     z-index: 10;
   }
   .navList{
-    max-width: 100%;
-    max-height: 100vh;
+    
     padding-top: 15px;
     padding-right: 40px;
   display: flex;
   justify-content: space-between;
   
- width: 70%;
-  height: 40px;
-  font-size: 20px;
+ width: 100px;
+  height: 100px;
+  font-size: 80px;
 color: black;
   }
- 
+  
+
   .myCv{
     background-color: blue;
     color: white;
@@ -105,20 +106,80 @@ justify-content: space-between;
 i {
   padding-left: 10px;
   }
-  span{
+
+  .span{
     color: white;
   }
   img {
     max-width: 100%;
     }
-  .pic1{max-width: fit-content;
+  .pic1{max-width: 100;
   }
 
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 280px) {
+   
+   /* *{
+     margin: 0%;
+     padding: 0%;
+   }
+    body {
+      max-width: 100%;
+    }
+.column1{
+  width: 140px;
+}
+    .column2{
+      width: 140px;
+    }
+     
+    .contact-me{
+      margin-top: 100px;
+      margin-left: -10px;
+      background-color: aqua;
+      width: 100px;
+      height: 40px;
+    }
 
-
-    @media screen and (max-width:600px) {
-      * {
-          width: 90%;
-      }
-  }
+    }
+    .logo{
+      color: 
+      rgb(238, 15, 15);
+      padding-top: 15px;
+      margin-left: 10px;
+      font-size: 20px;
+    }
+    .navBar{
     
+      overflow: hidden;
+      margin-left: 20px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      
+      background-color: #aaa7a7;
+      width: 92.5%;
+      height: 60px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+    }
+    .navList{
+      
+      padding-top: 15px;
+      padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+   width: 70%;
+    height: 9px;
+    font-size:20px;
+  color: black;   */
+
+ 
+  }
+    }
+  
+
